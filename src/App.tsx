@@ -1,9 +1,10 @@
+import './index.css'
+
 function App() {
-    console.log('123');
     return (
-        <>
-            <h1>Vite + React</h1>
-        </>
+        <div className="flex items-center justify-center w-40 h-10 bg-amber-200">
+            <p className="text-pink-500">Vite + React</p>
+        </div>
     )
 }
 
